@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"cec3675f7700a96e","x":-140,"y":-100,"width":250,"height":129,"color":"5","type":"text","text":"Interacción\nHombre\nComputadora"},
+		{"id":"c1edc30f68d5a16b","x":115,"y":116,"width":250,"height":60,"type":"text","text":"Ergonomia"},
+		{"id":"bdc5fc4f6f29be25","x":-426,"y":117,"width":250,"height":60,"type":"text","text":"Sociologia"},
+		{"id":"8949c730fb0fb453","x":-473,"y":-42,"width":250,"height":60,"type":"text","text":"Diseño"},
+		{"id":"0f5d8d3c42a6c512","x":143,"y":-100,"width":288,"height":50,"type":"text","text":"Inteligencia Artificial"},
+		{"id":"ff0636f525d44507","x":115,"y":-281,"width":250,"height":78,"type":"text","text":"Ingeniería de Software"},
+		{"id":"6889644bbf15eeab","x":-520,"y":-160,"width":250,"height":60,"type":"text","text":"Psicologia"},
+		{"id":"4c5cb09237bc4e64","x":-176,"y":-311,"width":250,"height":60,"type":"text","text":"Programación"}
+	],
+	"edges":[
+		{"id":"9070022684ff3a67","fromNode":"cec3675f7700a96e","fromSide":"top","toNode":"6889644bbf15eeab","toSide":"right"},
+		{"id":"e61f6fa64aadb39f","fromNode":"cec3675f7700a96e","fromSide":"top","toNode":"4c5cb09237bc4e64","toSide":"bottom"},
+		{"id":"cd0d76ee97e39789","fromNode":"cec3675f7700a96e","fromSide":"top","toNode":"ff0636f525d44507","toSide":"bottom"},
+		{"id":"f60ab0dbda55fad0","fromNode":"cec3675f7700a96e","fromSide":"right","toNode":"0f5d8d3c42a6c512","toSide":"bottom"},
+		{"id":"7273e80b810c263c","fromNode":"cec3675f7700a96e","fromSide":"bottom","toNode":"c1edc30f68d5a16b","toSide":"left"},
+		{"id":"3d41c153e20646e9","fromNode":"cec3675f7700a96e","fromSide":"bottom","toNode":"bdc5fc4f6f29be25","toSide":"right"},
+		{"id":"747ae4c41ea69203","fromNode":"cec3675f7700a96e","fromSide":"left","toNode":"8949c730fb0fb453","toSide":"right"}
+	]
+}
