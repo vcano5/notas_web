@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"00de77b236bcbab0","x":-220,"y":-265,"width":250,"height":115,"type":"text","text":"Inductiva o inferencial"},
+		{"id":"768ec959d5e10f19","x":-220,"y":100,"width":250,"height":115,"type":"text","text":"Descriptiva o deductiva"},
+		{"id":"6000e786e75df4c5","x":100,"y":53,"width":500,"height":210,"type":"text","text":"1. Unicamente describe y analiza un grupo dado.\n2. Consiste en la recolección, organización, resumen y representación de datos."},
+		{"id":"b7913ea8885a4952","x":-580,"y":-55,"width":250,"height":60,"type":"text","text":"Estadística"},
+		{"id":"51aa0b2669e493a0","x":100,"y":-390,"width":500,"height":365,"type":"text","text":"1. Usa muestras representativas.\n2. El analisis de muestras permite inferir conclusiones validas acerca de la población.\n3. Consiste en generalizar de muestras a poblaciones, realizar estimaciones y pruebas de hipotesis, determinar relaciones entre variables y hacer predicciones."}
+	],
+	"edges":[
+		{"id":"13b477610b68f0e1","fromNode":"b7913ea8885a4952","fromSide":"right","toNode":"00de77b236bcbab0","toSide":"left"},
+		{"id":"feb04498d179c8ae","fromNode":"b7913ea8885a4952","fromSide":"right","toNode":"768ec959d5e10f19","toSide":"left"},
+		{"id":"7a6d897a90725d9d","fromNode":"00de77b236bcbab0","fromSide":"right","toNode":"51aa0b2669e493a0","toSide":"left"},
+		{"id":"081413bb9b550976","fromNode":"768ec959d5e10f19","fromSide":"right","toNode":"6000e786e75df4c5","toSide":"left"}
+	]
+}
